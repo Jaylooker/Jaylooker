@@ -10,4 +10,4 @@ Under construction (broken links exist with borrowed html and css)
 
 ###### Acknowledgements
 
-Special thanks to (Jonathan McGlone)[https://github.com/jmcglone] for making an awesome [guide](http://jmcglone.com/guides/github-pages/) for Jekyll + Github pages. 
+Special thanks to [Jonathan McGlone](https://github.com/jmcglone) for making an awesome [guide](http://jmcglone.com/guides/github-pages/) for Jekyll + Github pages. 
