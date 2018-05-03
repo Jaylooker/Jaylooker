@@ -7,6 +7,7 @@ Under construction (broken links exist with borrowed html and css)
 #### Dependencies
 
 * Jekyll - Static site generation
+* Sass - CSS extension 
 
 ###### Acknowledgements
 
