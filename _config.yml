@@ -1,5 +1,7 @@
 name: Jack Bartolone
 markdown: kramdown
+include: ["_pages"]
+permalink: /:title/
 sass:
     sass_dir: _sass
     

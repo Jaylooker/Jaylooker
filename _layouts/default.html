@@ -1,11 +1,7 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title> {{ page.title }} </title>
-
-	<link rel="stylesheet" type="text/css" href="/css/default.css">
-</head>
-
+	<!--todo extract css var to be used by page using layout-->
+{% include header.html css=default.css %}
 <body>
 		<nav>
 	    	<ul>
@@ -19,12 +15,7 @@
 		<!-- /.container -->
 		{{ content }}
 		</div>
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:jackbartolone@comcast.net">email</a></li>
-	        		<li><a href="https://github.com/jaylooker">github.com/jaylooker</a></li>
-				</ul>
-			</footer>
+{% include footer.html %}
 	
 </body>
 </html>
