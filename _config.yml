@@ -2,6 +2,10 @@ name: Jack Bartolone
 markdown: kramdown
 include: ["_pages"]
 permalink: /:title/
+
+keep_files: ["_assets"]
+sources: 
+    - _assets/img
 sass:
     sass_dir: _sass
     
