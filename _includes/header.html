@@ -2,7 +2,7 @@
 <html>
     <head>
         <title> {{ page.title }} </title>
-                
-        <link rel="stylesheet" type="text/css" href="/css/{{ include.css }}">
+        {% capture path %}/css/{{ include.css }}{% endcapture %}     
+        <link rel="stylesheet" type="text/css" href="{{ path }}">
     </head>
 </html>
