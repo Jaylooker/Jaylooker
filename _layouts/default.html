@@ -3,7 +3,8 @@
 <!DOCTYPE html>
 <html>
 	<!--todo extract css var to be used by page using layout-->
-{% include header.html css=default.css %}
+{% capture pagetitle %}{{ page.title }}{% endcapture %}
+{% include header.html css=default.css title=pagetitle %}
 <body>
 		<nav>
 	    	<ul>

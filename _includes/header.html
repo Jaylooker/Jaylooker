@@ -3,8 +3,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> {{ page.title }} </title>
-        {% capture path %}/css/{{ include.css }}{% endcapture %}     
-        <link rel="stylesheet" type="text/css" href="{{ path }}">
+        <title> {{ include.title }} </title>
+        {% capture cssname %}{{ include.css }}{% endcapture %}     
+        <link rel="stylesheet" type="text/css" href="/css/{{ cssname }}">
     </head>
 </html>
